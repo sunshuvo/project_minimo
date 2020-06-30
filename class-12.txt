@@ -1,0 +1,15 @@
+
+
+1. Define section/layout first
+2. follow spacing assign in PSD, but as a developer you can use standard if PSD give wrong information
+3. Common pattern like text color, font-family
+4. extra color which not define in PSD or image must similar with the website content
+5. Common patter: use in body
+6. Logo used as png always
+7. PSD width have to mintain
+8. * can be used in CSS for select all selector
+10. sequence margin/padding, font related, text related 
+11. Recent font size 16px.. we always use it if PSD give lower
+12. Both pixel perfect and UI/UX consider, if something in PSD is not normal we can change it
+13. No color available in PSD to give hover effect we can use other method like underline 
+14. If content available on image then we have take image as background
