@@ -2,4 +2,4 @@
 Project Minimo from PSD to HTML
 
 
-Live: https://sunshuco.github.io/project_minimo
+Live: https://sunshuvo.github.io/project_minimo/
