@@ -88,16 +88,27 @@ header{
 	text-align: center;
 }
 
-.newsletter_content input{
+.newsletter_content .form{
+	position: relative;
+}
+
+.newsletter_content .form input:nth-child(1){
 	width:100%;
 	color: #888888;
 	background-color: #f0f0f0;
 	border: none;
-	padding-bottom:14px;
+	padding:14px 0;
 	border-bottom: 1px solid black;
 }
-.newsletter_content input::placeholder{
+.newsletter_content .form input:nth-child(1):placeholder{
+	font-size: 16px;
 	color: #888888;
+}
+
+.newsletter_content .form input:nth-child(2) {
+	position: absolute;
+	top: 14px;
+	right: 0%;
 	
 }
 
@@ -160,15 +171,3 @@ footer li a:hover{
 }
 .footer_link ul li a:hover{}
 /*Footer section End*/
-
-
-
-
-
-
-
-
-
-
-
-
