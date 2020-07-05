@@ -72,6 +72,64 @@ header{
 
 /*Banner end*/
 
+/* Photodairy Start */
+.perfect{}
+.container_info{
+	/* border: 1px solid red; */
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+.sec_info{
+	padding: 60px 0;
+}
+.sec_info_head{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.sec_info_title{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 400;
+}
+.sec_info_body{
+	margin-bottom: 40px;
+	line-height: 25px;
+}
+.sec_info_comment{}
+
+/* Photodairy End */
+
+/* Blog Start */
+.blog{
+	padding: 60px 0;
+}
+.single_blog{
+	width: 47%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.single_blog:nth-child(1){
+	margin-bottom: 49px;
+}
+
+.single_blog:nth-child(even){
+	margin-left: 6%;
+}
+
+.single_blog img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+/* Blog End */
+
 /* Newsletter Start*/
 .newsletter{
 	background-color: #f0f0f0;
@@ -114,11 +172,42 @@ header{
 
 /* Newsletter End*/
 
+/* Blog-2 Start*/
+.blog2{
+	padding-top: 60px;
+}
+/* Blog2 End */
+
+/* loadmore Start */
+.load{
+	padding: 100px 0 200px 0;
+	text-align: center;
+}
+.load button{
+	width: 160px;
+	height: 60px;
+	background-color: transparent;
+	border: 1px solid #626262;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #626262;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.load button:hover{
+	background-color:#626262;
+	color: white;
+}
+.load button:focus{
+	outline: 0;
+}
+/* loadmore End */
+
 
 
 /*Footer section Start*/
 footer{
-	padding: 35px 5.8% 35px 12.5%;
+	padding: 35px 10% 35px 10%;
 	background-color: #f0f0f0;
 }
 footer li{
@@ -161,6 +250,8 @@ footer li a:hover{
 }
 .footer_link ul li:first-child{
 	margin-right: 20px;
+	margin-top: 5px;
+	color: black;
 }
 .footer_link ul li:last-child{
 	margin-right: 0px;
