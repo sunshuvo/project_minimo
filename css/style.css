@@ -152,12 +152,12 @@ header{
 }
 
 .newsletter_content .form input:nth-child(1){
-	width:87%;
+	width: 100%;
 	color: #888888;
 	background-color: #f0f0f0;
-	border: none;
-	padding:14px 13% 14px 0;
-/* 	border-bottom: 1px solid black;  */
+	padding: 14px 33px 14px 0;
+	box-sizing: border-box;
+    /*	border-bottom: 1px solid black; */
 }
 .newsletter_content .form input:nth-child(1):placeholder{
 	font-size: 16px;
@@ -166,7 +166,7 @@ header{
 
 .newsletter_content .form input:nth-child(2) {
 	position: absolute;
-	top: 14px;
+	top: 13px;
 	right: 0%;
 	
 }
