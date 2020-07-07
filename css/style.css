@@ -157,6 +157,7 @@ header{
 	background-color: #f0f0f0;
 	padding: 14px 33px 14px 0;
 	box-sizing: border-box;
+	border: none;
     /*	border-bottom: 1px solid black; */
 }
 .newsletter_content .form input:nth-child(1):placeholder{
