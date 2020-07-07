@@ -148,6 +148,8 @@ header{
 
 .newsletter_content .form{
 	position: relative;
+	padding:12px 0;
+	border-bottom: 1px solid black;
 }
 
 .newsletter_content .form input:nth-child(1){
@@ -155,8 +157,8 @@ header{
 	color: #888888;
 	background-color: #f0f0f0;
 	border: none;
-	padding:14px 0;
-	border-bottom: 1px solid black;
+/* 	padding:14px 0;
+	border-bottom: 1px solid black; */
 }
 .newsletter_content .form input:nth-child(1):placeholder{
 	font-size: 16px;
