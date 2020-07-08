@@ -159,7 +159,7 @@ header{
 	width: 100%;
 	color: #888888;
 	background-color: #f0f0f0;
-	padding: 14px 33px 14px 0;
+	padding: 14px 33px 14px 5px;
 	box-sizing: border-box;
 	border: none;
     /*	border-bottom: 1px solid black; */
