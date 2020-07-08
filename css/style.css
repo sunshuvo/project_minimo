@@ -151,6 +151,10 @@ header{
 	border-bottom: 1px solid black;
 }
 
+.newsletter_content .form input:focus{
+	outline:none;
+}
+
 .newsletter_content .form input:nth-child(1){
 	width: 100%;
 	color: #888888;
